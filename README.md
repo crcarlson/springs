@@ -1,4 +1,7 @@
 # Springs
+
+[http://nbviewer.ipython.org/github/crcarlson/springs/blob/master/compression_springs.ipynb](http://nbviewer.ipython.org/github/crcarlson/springs/blob/master/compression_springs.ipynb)
+
 A set of python functions and IPython notebooks for
 
 1. Design: Select physical parameters to yield a desired spring constant

@@ -12,12 +12,11 @@ div #notebook { /* center the content */
     padding-top: 10px;
 }
 
-.rendered_html *+ol, *+ul{ /* Remove margin at top of lists*/
-    margin-top:0;
+#notebook li { /* More space between bullet points */
+    margin-top:6pt;
 }
 
-
-#notebook li { /* More space between bullet points */
+.rendered_html *li{  /* More space between bullet points */
     margin-top:6pt;
 }
 
@@ -52,6 +51,10 @@ div.text_cell_render{
     line-height: 130%;
     margin-left:auto;
     margin-right:auto;
+}
+
+.rendered_html *+ol, *+ul{ /* Remove margin at top of lists*/
+    margin-top:0;
 }
 
 .rendered_html h1 {
